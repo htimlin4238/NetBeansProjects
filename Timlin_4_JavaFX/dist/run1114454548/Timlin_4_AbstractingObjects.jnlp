@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Timlin_4_AbstractingObjects.jnlp">
+  <information>
+    <title>Timlin_4_AbstractingObjects</title>
+    <vendor>htimlin4238</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Timlin_4_AbstractingObjects.jar" size="27166" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Timlin_4_AbstractingObjects" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="timlin_4_abstractingobjects.Timlin_4_AbstractingObjects"  name="Timlin_4_AbstractingObjects" />
+  <update check="always"/>
+</jnlp>
