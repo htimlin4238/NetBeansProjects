@@ -104,17 +104,17 @@ public class ComplexGrapher extends Application {
                 gc.setFill(Color.BLACK);
                 gc.fillOval(drawX, drawY, 5, 5);
                 gc.setFill(Color.RED);
-                gc.fillOval(fR(x), fC(y), 5, 5);
+                gc.fillOval(fR(x), fC(y, x), 5, 5);
             }
         }
         
         public double fR(double x) {
-            double real = x*2 - 2;
+            double real = Math.pow(x, 2);
             return (real + 10) / 20 * SIDE - 2;
         }
         
-        public double fC(double y) {
-            double complex = y + 2;
+        public double fC(double y, double x) {
+            double complex = 2 * x * y + Math.pow(y, 2);
             return (20 - (complex + 10)) / 20 * SIDE - 2;
         }
     }
